@@ -13,7 +13,7 @@ import com.netflix.curator.x.discovery.details.JsonInstanceSerializer;
 
 @Configuration
 public class ClientConfig {	
-	private static final String ZK_HOST = "localhost";
+	private static final String ZK_HOST = "52.8.77.21:2181,52.8.77.21:2182,52.8.77.21:2183";
 
 	@Bean( initMethod = "start", destroyMethod = "close" )
 	public CuratorFramework curator() {

@@ -23,7 +23,7 @@ import com.netflix.curator.x.discovery.details.JsonInstanceSerializer;
 
 @Configuration
 public class AppConfig {
-	private static final String ZK_HOST = "localhost";
+	private static final String ZK_HOST = "52.8.77.21:2181,52.8.77.21:2182,52.8.77.21:2183";
 	
 	public static final String SERVER_PORT = "server.port";
 	public static final String SERVER_HOST = "server.host";
